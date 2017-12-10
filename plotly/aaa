@@ -1,0 +1,4 @@
+w=-8:0.02:8;
+RC=1;
+argGs=atan(1./(w.*RC)).*180./pi;
+plot(w,argGs);grid
